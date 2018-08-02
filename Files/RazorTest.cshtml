@@ -1,0 +1,19 @@
+@model Innovator.Client.IReadOnlyItem
+@using Innovator.Client;
+@using System.Linq;
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ItemType</title>
+</head>
+  <body>
+    <h1>@Model.Property("label").AsString(Model.Property("name").Value)</h1>
+    <ul>
+      @foreach (var prop in @Model.Relationships("Property").OrderBy(p => p.Property("name").Value))
+      {
+        <li>@prop.Property("name").Value</li>
+      }
+    </ul>
+  </body>
+</html>

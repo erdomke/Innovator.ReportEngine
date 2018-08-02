@@ -1,0 +1,2575 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Body>
+    <Result>
+      <Item type="ItemType" typeId="450906E86E304F55A34B3C0D65C097EA" id="45E899CD2859442982EB22BB2DF683E5">
+        <allow_private_permission>1</allow_private_permission>
+        <auto_search>1</auto_search>
+        <close_icon>../images/User.svg</close_icon>
+        <config_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</config_id>
+        <core>1</core>
+        <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+        <created_on>2002-04-24T09:42:25</created_on>
+        <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+        <default_page_size>25</default_page_size>
+        <enforce_discovery>0</enforce_discovery>
+        <generation>1</generation>
+        <help_url xml:lang="en">mergedProjects/Just Ask Innovator/About_Users.htm</help_url>
+        <hide_where_used>1</hide_where_used>
+        <id keyed_name="User" type="ItemType">45E899CD2859442982EB22BB2DF683E5</id>
+        <implementation_type>table</implementation_type>
+        <instance_data>USER</instance_data>
+        <is_current>1</is_current>
+        <is_dependent>0</is_dependent>
+        <is_relationship>0</is_relationship>
+        <is_released>0</is_released>
+        <is_versionable>0</is_versionable>
+        <keyed_name>User</keyed_name>
+        <label xml:lang="en">User</label>
+        <label_plural xml:lang="en">Users</label_plural>
+        <large_icon>../images/User.svg</large_icon>
+        <major_rev>A</major_rev>
+        <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+        <modified_on>2018-01-08T02:44:31</modified_on>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <open_icon>../images/User.svg</open_icon>
+        <permission_id keyed_name="DCA0BC0221FA48399DB079F3B88A3909" type="Permission">DCA0BC0221FA48399DB079F3B88A3909</permission_id>
+        <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+        <show_parameters_tab>1</show_parameters_tab>
+        <state>Released</state>
+        <structure_view>tabs min</structure_view>
+        <unlock_on_logout>0</unlock_on_logout>
+        <use_src_access>0</use_src_access>
+        <name>User</name>
+        <Relationships>
+          <Item type="Allowed Permission" typeId="DB54505FA3E9419DA3C1E1AFB7A48C1C" id="2F7F11DCF2FE4D5A8B0D28CF1EB1EE6A">
+            <behavior>float</behavior>
+            <config_id keyed_name="2F7F11DCF2FE4D5A8B0D28CF1EB1EE6A" type="Allowed Permission">2F7F11DCF2FE4D5A8B0D28CF1EB1EE6A</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-08-04T17:13:41</created_on>
+            <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+            <generation>1</generation>
+            <id keyed_name="2F7F11DCF2FE4D5A8B0D28CF1EB1EE6A" type="Allowed Permission">2F7F11DCF2FE4D5A8B0D28CF1EB1EE6A</id>
+            <is_current>1</is_current>
+            <is_default>1</is_default>
+            <is_released>1</is_released>
+            <keyed_name>2F7F11DCF2FE4D5A8B0D28CF1EB1EE6A</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="World Can Get" type="Permission">93AB06D37FC84328A314324DC45DB574</permission_id>
+            <related_id keyed_name="User" type="Permission">
+              <Item type="Permission" typeId="C6A89FDE1294451497801DF78341B473" id="AA4BFC34E3E64128ADA3FB01042464C4">
+                <config_id keyed_name="User" type="Permission">AA4BFC34E3E64128ADA3FB01042464C4</config_id>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2004-08-04T17:13:41</created_on>
+                <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+                <generation>1</generation>
+                <id keyed_name="User" type="Permission">AA4BFC34E3E64128ADA3FB01042464C4</id>
+                <is_current>1</is_current>
+                <is_private>0</is_private>
+                <is_released>1</is_released>
+                <keyed_name>User</keyed_name>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:46:30</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Permission" type="Permission">BBBFCF1164514B7B92C8BCA944498142</permission_id>
+                <state>Released</state>
+                <name>User</name>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <state>Released</state>
+          </Item>
+          <Item type="Can Add" typeId="3A65F41FF1FC42518A702FDA164AF420" id="2666981343834D0082EF61CD8055DD81">
+            <behavior>float</behavior>
+            <can_add>1</can_add>
+            <config_id keyed_name="2666981343834D0082EF61CD8055DD81" type="Can Add">2666981343834D0082EF61CD8055DD81</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-08-04T17:14:30</created_on>
+            <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+            <generation>1</generation>
+            <id keyed_name="2666981343834D0082EF61CD8055DD81" type="Can Add">2666981343834D0082EF61CD8055DD81</id>
+            <is_current>1</is_current>
+            <is_released>1</is_released>
+            <keyed_name>2666981343834D0082EF61CD8055DD81</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="World Can Get" type="Permission">93AB06D37FC84328A314324DC45DB574</permission_id>
+            <related_id keyed_name="Administrators" type="Identity">
+              <Item type="Identity" typeId="E582AB17663F4EF28460015B2BE9E094" id="2618D6F5A90949BAA7E920D1B04C7EE1">
+                <config_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</config_id>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2005-07-15T11:33:48</created_on>
+                <description>Users with access to system administrative aspects</description>
+                <generation>1</generation>
+                <id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</id>
+                <is_alias>0</is_alias>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <keyed_name>Administrators</keyed_name>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Wayne Rumsey" type="User">7DCBB249A99340B7B897A44A2027584B</modified_by_id>
+                <modified_on>2018-04-12T15:37:58</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Identity" type="Permission">761D6A3E3CA146138B47393D29FF6824</permission_id>
+                <name>Administrators</name>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <state>Released</state>
+          </Item>
+          <Item type="Item Action" typeId="6C280692633D4498BD9CFEA7989138AB" id="C6C6F075B645448EA832D59BA750C7D5">
+            <behavior>float</behavior>
+            <config_id keyed_name="C6C6F075B645448EA832D59BA750C7D5" type="Item Action">C6C6F075B645448EA832D59BA750C7D5</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2005-07-15T11:34:00</created_on>
+            <generation>1</generation>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>C6C6F075B645448EA832D59BA750C7D5</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="ItemType" type="Permission">102D29B8CD9948BFB5F558341DF4C0F9</permission_id>
+            <related_id keyed_name="Reset Authentication Passwords" type="Action">
+              <Item type="Action" typeId="483228BE6B9A4C0E99ACD55FDF328DEC" id="F5E4E1F146A74EE18F844589BFC12A08">
+                <config_id keyed_name="Reset Authentication Passwords" type="Action">F5E4E1F146A74EE18F844589BFC12A08</config_id>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2005-07-15T11:34:00</created_on>
+                <generation>1</generation>
+                <id keyed_name="Reset Authentication Passwords" type="Action">F5E4E1F146A74EE18F844589BFC12A08</id>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <item_query></item_query>
+                <keyed_name>Reset Authentication Passwords</keyed_name>
+                <label xml:lang="en">Reset Authentication Passwords</label>
+                <location>server</location>
+                <major_rev>A</major_rev>
+                <method keyed_name="Reset All Auth Passwords" type="Method">B61B8801EC804537A3661E49AF9B2FD3</method>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:44:16</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="AdministratorsOnly" type="Permission">9862DDFAAF97463B940DA624B95BA71A</permission_id>
+                <target>one window</target>
+                <type>itemtype</type>
+                <name>Reset Authentication Passwords</name>
+                <itemtype>483228BE6B9A4C0E99ACD55FDF328DEC</itemtype>
+              </Item>
+            </related_id>
+            <sort_order>640</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <id keyed_name="C6C6F075B645448EA832D59BA750C7D5" type="Item Action">C6C6F075B645448EA832D59BA750C7D5</id>
+            <itemtype>6C280692633D4498BD9CFEA7989138AB</itemtype>
+          </Item>
+          <Item type="Item Report" typeId="5BD6BED0CD794A078AA42476F47ECF46" id="65B2DDC93FA24F29A1053FC0BD37675A">
+            <behavior>float</behavior>
+            <config_id keyed_name="65B2DDC93FA24F29A1053FC0BD37675A" type="Item Report">65B2DDC93FA24F29A1053FC0BD37675A</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2018-01-08T02:44:10</created_on>
+            <generation>1</generation>
+            <id keyed_name="65B2DDC93FA24F29A1053FC0BD37675A" type="Item Report">65B2DDC93FA24F29A1053FC0BD37675A</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>65B2DDC93FA24F29A1053FC0BD37675A</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:10</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="DCA0BC0221FA48399DB079F3B88A3909" type="Permission">DCA0BC0221FA48399DB079F3B88A3909</permission_id>
+            <related_id keyed_name="Inactive Accounts" type="Report">
+              <Item type="Report" typeId="F0834BBA6FB64394B78DF5BB725532DD" id="B7A146F714D249009152932B59C71486">
+                <config_id keyed_name="Inactive Accounts" type="Report">B7A146F714D249009152932B59C71486</config_id>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2018-01-08T02:44:10</created_on>
+                <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+                <generation>1</generation>
+                <id keyed_name="Inactive Accounts" type="Report">B7A146F714D249009152932B59C71486</id>
+                <is_current>1</is_current>
+                <is_released>1</is_released>
+                <keyed_name>Inactive Accounts</keyed_name>
+                <location>client</location>
+                <major_rev>A</major_rev>
+                <method keyed_name="Core_GetInactiveAccounts" type="Method">9F59F8737D5D4D1B81BD525FAA053C5C</method>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:44:10</modified_on>
+                <new_version>1</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Report" type="Permission">6F2E8817ED92423DA60EA1623FFCEBA7</permission_id>
+                <report_query></report_query>
+                <state>Released</state>
+                <target>window</target>
+                <type>itemtype</type>
+                <xsl_stylesheet><![CDATA[
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:user-scripts" xmlns:aras="http://www.aras-corp.com">
+	<xsl:output method="html" omit-xml-declaration="yes" standalone="yes" indent="yes" cdata-section-elements="script msxsl:script" />
+	<xsl:template match="/Result">
+		<xsl:variable name="blank" select="' '" />
+		<html>
+			<body topmargin="0" leftmargin="0">
+			<center><h3>Inactive Accounts Report</h3></center>
+				<table cellspacing="0" cellpadding="0" style="width:expression(document.body.clientWidth);" border="1" align="center">
+					<tr width="100%" bgcolor="buttonface">
+						<td align="center">Login Name</td>
+						<td align="center">First Name</td>
+						<td align="center">Last Name</td>
+						<td align="center">Last Login Date<br />(Created On if empty)</td>
+					</tr>
+					<xsl:for-each select="Item">
+						<xsl:call-template name="row" />
+					</xsl:for-each>
+				</table>
+			</body>
+		</html>
+	</xsl:template>
+	<xsl:template name="row" match="Item">
+		<xsl:variable name="last_login_date">
+			<xsl:choose>
+				<xsl:when test="string(last_login_date)=''">
+					<xsl:value-of select="created_on" />(Created On)
+			</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="last_login_date" />
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:variable>
+		<tr>
+			<td align="center">
+				<xsl:value-of select="login_name" />
+			</td>
+			<td align="center">
+				<xsl:value-of select="first_name" />
+			</td>
+			<td align="center">
+				<xsl:value-of select="last_name" />
+			</td>
+			<td align="center">
+				<xsl:value-of select="$last_login_date" />
+			</td>
+		</tr>
+	</xsl:template>
+</xsl:stylesheet>
+]]></xsl_stylesheet>
+                <name>Inactive Accounts</name>
+                <itemtype>F0834BBA6FB64394B78DF5BB725532DD</itemtype>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <itemtype>5BD6BED0CD794A078AA42476F47ECF46</itemtype>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="71F274CB4AB24C1390FABE274915178E">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>100</column_width>
+            <config_id keyed_name="cell" type="Property">71F274CB4AB24C1390FABE274915178E</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:30</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="cell" type="Property">71F274CB4AB24C1390FABE274915178E</id>
+            <is_current>1</is_current>
+            <is_hidden>0</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>cell</keyed_name>
+            <label xml:lang="en">Cell</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>8</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>32</stored_length>
+            <track_history>0</track_history>
+            <name>cell</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="C779822897BB44CEB2822C237B30DD49">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="classification" type="Property">C779822897BB44CEB2822C237B30DD49</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-08-04T17:26:04</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="classification" type="Property">C779822897BB44CEB2822C237B30DD49</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>classification</keyed_name>
+            <label xml:lang="en">Classification</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2011-12-02T11:28:23</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>512</stored_length>
+            <track_history>0</track_history>
+            <name>classification</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="0B864559C5FB40ECA2289723E3C3BD64">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="company_name" type="Property">0B864559C5FB40ECA2289723E3C3BD64</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:28</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="company_name" type="Property">0B864559C5FB40ECA2289723E3C3BD64</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>company_name</keyed_name>
+            <label xml:lang="en">Company Name</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>12</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>32</stored_length>
+            <track_history>0</track_history>
+            <name>company_name</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="164E627843844CBEA6BD0175A6ACD187">
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="config_id" type="Property">164E627843844CBEA6BD0175A6ACD187</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-08-04T17:26:04</created_on>
+            <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+            <data_type>item</data_type>
+            <generation>1</generation>
+            <id keyed_name="config_id" type="Property">164E627843844CBEA6BD0175A6ACD187</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>1</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>config_id</keyed_name>
+            <label xml:lang="en">Config_id</label>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>2688</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>config_id</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="C80BF0625E524DBB95CAE332BAE944D4">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="created_by_id" type="Property">C80BF0625E524DBB95CAE332BAE944D4</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:32</created_on>
+            <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+            <data_type>item</data_type>
+            <generation>1</generation>
+            <id keyed_name="created_by_id" type="Property">C80BF0625E524DBB95CAE332BAE944D4</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>1</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>created_by_id</keyed_name>
+            <label xml:lang="en">Created By</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>1</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>created_by_id</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="0A0A62E8B2C84E6EA28015BB4F203283">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>100</column_width>
+            <config_id keyed_name="created_on" type="Property">0A0A62E8B2C84E6EA28015BB4F203283</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:31</created_on>
+            <data_type>date</data_type>
+            <generation>1</generation>
+            <id keyed_name="created_on" type="Property">0A0A62E8B2C84E6EA28015BB4F203283</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>1</is_required>
+            <keyed_name>created_on</keyed_name>
+            <label xml:lang="en">Created On</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>1</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>created_on</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="D8B6D5F198574B53969385C471D6DFD4">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>240</column_width>
+            <config_id keyed_name="css" type="Property">D8B6D5F198574B53969385C471D6DFD4</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-10-02T21:36:50</created_on>
+            <data_type>text</data_type>
+            <generation>1</generation>
+            <id keyed_name="css" type="Property">D8B6D5F198574B53969385C471D6DFD4</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>css</keyed_name>
+            <label xml:lang="en">CSS</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>css</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="97A48C63237A40B3967FD8A7A6B65E2F">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="current_state" type="Property">97A48C63237A40B3967FD8A7A6B65E2F</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:32</created_on>
+            <data_source keyed_name="Life Cycle State" type="ItemType" name="Life Cycle State">5EFB53D35BAE468B851CD388BEA46B30</data_source>
+            <data_type>item</data_type>
+            <generation>1</generation>
+            <id keyed_name="current_state" type="Property">97A48C63237A40B3967FD8A7A6B65E2F</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>current_state</keyed_name>
+            <label xml:lang="en">Current State</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>1</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>current_state</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="C0F71E7A2B3C4703ABA2597407C73D64">
+            <behavior>float</behavior>
+            <column_alignment>center</column_alignment>
+            <column_width>30</column_width>
+            <config_id keyed_name="default_vault" type="Property">C0F71E7A2B3C4703ABA2597407C73D64</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-02-27T10:27:07</created_on>
+            <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+            <data_source keyed_name="Vault" type="ItemType" name="Vault">8FC29FEF933641A09CEE13A604A9DC74</data_source>
+            <data_type>item</data_type>
+            <default_value xml:lang="en">67BBB9204FE84A8981ED8313049BA06C</default_value>
+            <generation>1</generation>
+            <id keyed_name="default_vault" type="Property">C0F71E7A2B3C4703ABA2597407C73D64</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>1</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>default_vault</keyed_name>
+            <label xml:lang="en">Default Vault</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>65</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <state>Released</state>
+            <track_history>0</track_history>
+            <name>default_vault</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="6C3BE07832AA41028237F2FA79EBC069">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>150</column_width>
+            <config_id keyed_name="email" type="Property">6C3BE07832AA41028237F2FA79EBC069</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:29</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="email" type="Property">6C3BE07832AA41028237F2FA79EBC069</id>
+            <is_current>1</is_current>
+            <is_hidden>0</is_hidden>
+            <is_hidden2>0</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>email</keyed_name>
+            <label xml:lang="en">Email</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>6</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>64</stored_length>
+            <track_history>0</track_history>
+            <name>email</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="BA934BFB671B425998EBA5A35B95558A">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="esignature" type="Property">BA934BFB671B425998EBA5A35B95558A</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-11-05T15:05:34</created_on>
+            <data_type>md5</data_type>
+            <generation>1</generation>
+            <id keyed_name="esignature" type="Property">BA934BFB671B425998EBA5A35B95558A</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>esignature</keyed_name>
+            <label xml:lang="en">Esignature</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>esignature</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="86CA4122C50A4E44982BA7EF2F17B1C2">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="fax" type="Property">86CA4122C50A4E44982BA7EF2F17B1C2</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:29</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="fax" type="Property">86CA4122C50A4E44982BA7EF2F17B1C2</id>
+            <is_current>1</is_current>
+            <is_hidden>0</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>fax</keyed_name>
+            <label xml:lang="en">Fax</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>9</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>32</stored_length>
+            <track_history>0</track_history>
+            <name>fax</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="7188DFCEC22147DC97F10239607ADDFA">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>100</column_width>
+            <config_id keyed_name="first_name" type="Property">7188DFCEC22147DC97F10239607ADDFA</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:27</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="first_name" type="Property">7188DFCEC22147DC97F10239607ADDFA</id>
+            <is_current>1</is_current>
+            <is_hidden>0</is_hidden>
+            <is_hidden2>0</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>first_name</keyed_name>
+            <keyed_name_order>1</keyed_name_order>
+            <label xml:lang="en">First Name</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>2</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>32</stored_length>
+            <track_history>0</track_history>
+            <name>first_name</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="6A478EAF01DB41C38ACCA980D7A079EF">
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="generation" type="Property">6A478EAF01DB41C38ACCA980D7A079EF</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-08-04T17:26:04</created_on>
+            <data_type>integer</data_type>
+            <generation>1</generation>
+            <id keyed_name="generation" type="Property">6A478EAF01DB41C38ACCA980D7A079EF</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>generation</keyed_name>
+            <label xml:lang="en">Generation</label>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>2432</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>generation</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="24E0444D34DD4E0083C5E7CFFFD80649">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="home_phone" type="Property">24E0444D34DD4E0083C5E7CFFFD80649</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:31</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="home_phone" type="Property">24E0444D34DD4E0083C5E7CFFFD80649</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>home_phone</keyed_name>
+            <label xml:lang="en">Home Phone</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>11</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>32</stored_length>
+            <track_history>0</track_history>
+            <name>home_phone</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="83185F6B02204F9B8007FFA08711EEFE">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="id" type="Property">83185F6B02204F9B8007FFA08711EEFE</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:31</created_on>
+            <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+            <data_type>item</data_type>
+            <generation>1</generation>
+            <id keyed_name="id" type="Property">83185F6B02204F9B8007FFA08711EEFE</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>1</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>id</keyed_name>
+            <label xml:lang="en">Item ID</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>1</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>id</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="1EF078B36DAA4A0797BD48D680EA01EA">
+            <behavior>float</behavior>
+            <column_alignment>center</column_alignment>
+            <column_width>80</column_width>
+            <config_id keyed_name="is_current" type="Property">1EF078B36DAA4A0797BD48D680EA01EA</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:33</created_on>
+            <data_type>boolean</data_type>
+            <generation>1</generation>
+            <id keyed_name="is_current" type="Property">1EF078B36DAA4A0797BD48D680EA01EA</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>is_current</keyed_name>
+            <label xml:lang="en">Current</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>1</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>is_current</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="BA528583E4324D8E97DC8FDB71D40DB2">
+            <behavior>float</behavior>
+            <column_alignment>center</column_alignment>
+            <column_width>30</column_width>
+            <config_id keyed_name="is_released" type="Property">BA528583E4324D8E97DC8FDB71D40DB2</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2003-11-06T11:47:10</created_on>
+            <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+            <data_type>boolean</data_type>
+            <generation>1</generation>
+            <id keyed_name="is_released" type="Property">BA528583E4324D8E97DC8FDB71D40DB2</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>1</is_released>
+            <is_required>0</is_required>
+            <keyed_name>is_released</keyed_name>
+            <label xml:lang="en">Is Released</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>56</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <state>Released</state>
+            <track_history>0</track_history>
+            <name>is_released</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="B06A7E944AE0473BB6D9027418EB2F29">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="keyed_name" type="Property">B06A7E944AE0473BB6D9027418EB2F29</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2003-02-07T13:11:29</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="keyed_name" type="Property">B06A7E944AE0473BB6D9027418EB2F29</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>1</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>keyed_name</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:47:33</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>128</stored_length>
+            <track_history>0</track_history>
+            <name>keyed_name</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="7BA6B19A2FED48AB8FCBEEF98F05CA6C">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="label" type="Property">7BA6B19A2FED48AB8FCBEEF98F05CA6C</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:31</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="label" type="Property">7BA6B19A2FED48AB8FCBEEF98F05CA6C</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>label</keyed_name>
+            <label xml:lang="en">Label</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>64</stored_length>
+            <track_history>0</track_history>
+            <name>label</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="09F1793712DB418681D1664BCE606407">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="last_login_date" type="Property">09F1793712DB418681D1664BCE606407</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2018-01-08T02:44:31</created_on>
+            <data_type>date</data_type>
+            <generation>1</generation>
+            <id keyed_name="last_login_date" type="Property">09F1793712DB418681D1664BCE606407</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>last_login_date</keyed_name>
+            <label xml:lang="en">Last Login Date</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="DCA0BC0221FA48399DB079F3B88A3909" type="Permission">DCA0BC0221FA48399DB079F3B88A3909</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>4480</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>last_login_date</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="86EC9DD76D504543BAF6AFC372187C36">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="last_name" type="Property">86EC9DD76D504543BAF6AFC372187C36</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:27</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="last_name" type="Property">86EC9DD76D504543BAF6AFC372187C36</id>
+            <is_current>1</is_current>
+            <is_hidden>0</is_hidden>
+            <is_hidden2>0</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>last_name</keyed_name>
+            <keyed_name_order>2</keyed_name_order>
+            <label xml:lang="en">Last Name</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>3</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>32</stored_length>
+            <track_history>0</track_history>
+            <name>last_name</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="969C631CF3E44C5190E197183DEAEB97">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="locked_by_id" type="Property">969C631CF3E44C5190E197183DEAEB97</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:33</created_on>
+            <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+            <data_type>item</data_type>
+            <generation>1</generation>
+            <id keyed_name="locked_by_id" type="Property">969C631CF3E44C5190E197183DEAEB97</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>locked_by_id</keyed_name>
+            <label xml:lang="en">Locked By</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>1</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>locked_by_id</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="E96F463BC35146A1AC1A0D92AC0C2A6E">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="login_name" type="Property">E96F463BC35146A1AC1A0D92AC0C2A6E</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:26</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="login_name" type="Property">E96F463BC35146A1AC1A0D92AC0C2A6E</id>
+            <is_current>1</is_current>
+            <is_hidden>0</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>1</is_indexed>
+            <is_keyed>1</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>1</is_required>
+            <keyed_name>login_name</keyed_name>
+            <label xml:lang="en">Login Name</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <order_by>0</order_by>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>0</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>32</stored_length>
+            <track_history>0</track_history>
+            <name>login_name</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="0683550156CA4A0CB46528C39BF5B281">
+            <behavior>float</behavior>
+            <column_alignment>center</column_alignment>
+            <column_width>80</column_width>
+            <config_id keyed_name="logon_enabled" type="Property">0683550156CA4A0CB46528C39BF5B281</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:27</created_on>
+            <data_type>boolean</data_type>
+            <generation>1</generation>
+            <id keyed_name="logon_enabled" type="Property">0683550156CA4A0CB46528C39BF5B281</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>logon_enabled</keyed_name>
+            <label xml:lang="en">Logon Enabled</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>1</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>logon_enabled</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="1A777A7054AA4654906AAA1F90BE4A53">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="mail_stop" type="Property">1A777A7054AA4654906AAA1F90BE4A53</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:28</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="mail_stop" type="Property">1A777A7054AA4654906AAA1F90BE4A53</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>mail_stop</keyed_name>
+            <label xml:lang="en">Mail Stop</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>13</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>16</stored_length>
+            <track_history>0</track_history>
+            <name>mail_stop</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="4CFAADB070AD4AC9BC6070D59F18554F">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>60</column_width>
+            <config_id keyed_name="major_rev" type="Property">4CFAADB070AD4AC9BC6070D59F18554F</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:33</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="major_rev" type="Property">4CFAADB070AD4AC9BC6070D59F18554F</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>major_rev</keyed_name>
+            <label xml:lang="en">Rev</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>8</stored_length>
+            <track_history>0</track_history>
+            <name>major_rev</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="6554FE18738643FE85D5ED8738A71399">
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="managed_by_id" type="Property">6554FE18738643FE85D5ED8738A71399</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-08-04T17:26:04</created_on>
+            <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+            <data_type>item</data_type>
+            <generation>1</generation>
+            <id keyed_name="managed_by_id" type="Property">6554FE18738643FE85D5ED8738A71399</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>managed_by_id</keyed_name>
+            <label xml:lang="en">Managed_by_id</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>4096</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>managed_by_id</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="DF45C17FE2344279BB4C93FD6312FB80">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="manager" type="Property">DF45C17FE2344279BB4C93FD6312FB80</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2003-04-28T10:59:00</created_on>
+            <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+            <data_type>item</data_type>
+            <generation>1</generation>
+            <id keyed_name="manager" type="Property">DF45C17FE2344279BB4C93FD6312FB80</id>
+            <is_current>1</is_current>
+            <is_hidden>0</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>manager</keyed_name>
+            <label xml:lang="en">Manager</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>5</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>manager</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="F5FAB8FCC3A047F8A416E962260A71ED">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>60</column_width>
+            <config_id keyed_name="minor_rev" type="Property">F5FAB8FCC3A047F8A416E962260A71ED</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:34</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="minor_rev" type="Property">F5FAB8FCC3A047F8A416E962260A71ED</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>minor_rev</keyed_name>
+            <label xml:lang="en">Minor Rev</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>8</stored_length>
+            <track_history>0</track_history>
+            <name>minor_rev</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="E757CF1E8659474386845FBCFC782793">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="modified_by_id" type="Property">E757CF1E8659474386845FBCFC782793</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:32</created_on>
+            <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+            <data_type>item</data_type>
+            <generation>1</generation>
+            <id keyed_name="modified_by_id" type="Property">E757CF1E8659474386845FBCFC782793</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>modified_by_id</keyed_name>
+            <label xml:lang="en">Modified By</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>1</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>modified_by_id</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="78545ADC7B694381B3AF39137529A751">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>100</column_width>
+            <config_id keyed_name="modified_on" type="Property">78545ADC7B694381B3AF39137529A751</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:32</created_on>
+            <data_type>date</data_type>
+            <generation>1</generation>
+            <id keyed_name="modified_on" type="Property">78545ADC7B694381B3AF39137529A751</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>modified_on</keyed_name>
+            <label xml:lang="en">Modified On</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>1</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>modified_on</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="FC34B59C08FA44E19904D911E7A728F1">
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="new_version" type="Property">FC34B59C08FA44E19904D911E7A728F1</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-08-04T17:26:04</created_on>
+            <data_type>boolean</data_type>
+            <generation>1</generation>
+            <id keyed_name="new_version" type="Property">FC34B59C08FA44E19904D911E7A728F1</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>new_version</keyed_name>
+            <label xml:lang="en">New_version</label>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>4352</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>new_version</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="A71036A5EED94D81AEF470A2724F6236">
+            <behavior>float</behavior>
+            <column_alignment>center</column_alignment>
+            <column_width>30</column_width>
+            <config_id keyed_name="not_lockable" type="Property">A71036A5EED94D81AEF470A2724F6236</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2003-11-06T11:53:01</created_on>
+            <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+            <data_type>boolean</data_type>
+            <generation>1</generation>
+            <id keyed_name="not_lockable" type="Property">A71036A5EED94D81AEF470A2724F6236</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>1</is_released>
+            <is_required>0</is_required>
+            <keyed_name>not_lockable</keyed_name>
+            <label xml:lang="en">Not Lockable</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>55</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <state>Released</state>
+            <track_history>0</track_history>
+            <name>not_lockable</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="F314D84B9EC748B3926D4EF1FD77E6AF">
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="owned_by_id" type="Property">F314D84B9EC748B3926D4EF1FD77E6AF</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-08-04T17:26:04</created_on>
+            <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+            <data_type>item</data_type>
+            <generation>1</generation>
+            <id keyed_name="owned_by_id" type="Property">F314D84B9EC748B3926D4EF1FD77E6AF</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>owned_by_id</keyed_name>
+            <label xml:lang="en">Owned_by_id</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>3968</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>owned_by_id</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="4BD2CBA2C5EC40B3B3A1CEED2A2E36F9">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="pager" type="Property">4BD2CBA2C5EC40B3B3A1CEED2A2E36F9</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:30</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="pager" type="Property">4BD2CBA2C5EC40B3B3A1CEED2A2E36F9</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>pager</keyed_name>
+            <label xml:lang="en">Pager</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>10</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>32</stored_length>
+            <track_history>0</track_history>
+            <name>pager</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="1402014895954CC3BCEDD85D0449BCA2">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="password" type="Property">1402014895954CC3BCEDD85D0449BCA2</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:26</created_on>
+            <data_type>md5</data_type>
+            <generation>1</generation>
+            <id keyed_name="password" type="Property">1402014895954CC3BCEDD85D0449BCA2</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>password</keyed_name>
+            <label xml:lang="en">Password</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>password</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="5F0D2336F8C6492AB96BBAFFE4B1B19F">
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="permission_id" type="Property">5F0D2336F8C6492AB96BBAFFE4B1B19F</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-08-04T17:26:04</created_on>
+            <data_source keyed_name="Permission" type="ItemType" name="Permission">C6A89FDE1294451497801DF78341B473</data_source>
+            <data_type>item</data_type>
+            <generation>1</generation>
+            <id keyed_name="permission_id" type="Property">5F0D2336F8C6492AB96BBAFFE4B1B19F</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>permission_id</keyed_name>
+            <label xml:lang="en">Permission id</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>4224</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>permission_id</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="6CD01CF0BE5D4428A46DBE9D67D1C7E7">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="picture" type="Property">6CD01CF0BE5D4428A46DBE9D67D1C7E7</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2018-01-08T02:44:31</created_on>
+            <data_type>image</data_type>
+            <generation>1</generation>
+            <id keyed_name="picture" type="Property">6CD01CF0BE5D4428A46DBE9D67D1C7E7</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>picture</keyed_name>
+            <label xml:lang="en">Picture</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="DCA0BC0221FA48399DB079F3B88A3909" type="Permission">DCA0BC0221FA48399DB079F3B88A3909</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>4736</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>picture</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="ED7A049C3DCD4806BE961A1B6AA620C2">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="pwd_is_set_on" type="Property">ED7A049C3DCD4806BE961A1B6AA620C2</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2018-01-08T02:44:31</created_on>
+            <data_type>date</data_type>
+            <generation>1</generation>
+            <id keyed_name="pwd_is_set_on" type="Property">ED7A049C3DCD4806BE961A1B6AA620C2</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>pwd_is_set_on</keyed_name>
+            <label xml:lang="en">Password Is Set On</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="DCA0BC0221FA48399DB079F3B88A3909" type="Permission">DCA0BC0221FA48399DB079F3B88A3909</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>4608</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>pwd_is_set_on</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="690F6A22DE264B539A408AF2BCEE4C43">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="starting_page" type="Property">690F6A22DE264B539A408AF2BCEE4C43</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-03-31T17:20:17</created_on>
+            <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+            <data_source keyed_name="StartingPage List">BFDEFE0CEE174B52B8972D49B446B812</data_source>
+            <data_type>list</data_type>
+            <generation>1</generation>
+            <id keyed_name="starting_page" type="Property">690F6A22DE264B539A408AF2BCEE4C43</id>
+            <is_current>1</is_current>
+            <is_hidden>0</is_hidden>
+            <is_hidden2>0</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>1</is_released>
+            <is_required>0</is_required>
+            <keyed_name>starting_page</keyed_name>
+            <label xml:lang="en">Starting Page</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>10</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <state>Released</state>
+            <stored_length>64</stored_length>
+            <track_history>0</track_history>
+            <name>starting_page</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="12C1866C3C314B9482414ABA0C3DF2A5">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="state" type="Property">12C1866C3C314B9482414ABA0C3DF2A5</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:33</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="state" type="Property">12C1866C3C314B9482414ABA0C3DF2A5</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>state</keyed_name>
+            <label xml:lang="en">State</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>1</readonly>
+            <sort_order>99</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>32</stored_length>
+            <track_history>0</track_history>
+            <name>state</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="5EF06DFFAB0D47B9AE71711E92940AAA">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <config_id keyed_name="team_id" type="Property">5EF06DFFAB0D47B9AE71711E92940AAA</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2011-12-02T11:28:17</created_on>
+            <data_source keyed_name="Team" type="ItemType" name="Team">CC23F9130F574E7D99DF9659F27590A6</data_source>
+            <data_type>item</data_type>
+            <generation>1</generation>
+            <id keyed_name="team_id" type="Property">5EF06DFFAB0D47B9AE71711E92940AAA</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <item_behavior>float</item_behavior>
+            <keyed_name>team_id</keyed_name>
+            <label xml:lang="en">Team</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2011-12-02T11:28:17</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="DCA0BC0221FA48399DB079F3B88A3909" type="Permission">DCA0BC0221FA48399DB079F3B88A3909</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>4480</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <track_history>0</track_history>
+            <name>team_id</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="308F5AFA8D3F493DABF3EB3D3D19B518">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="telephone" type="Property">308F5AFA8D3F493DABF3EB3D3D19B518</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:29</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="telephone" type="Property">308F5AFA8D3F493DABF3EB3D3D19B518</id>
+            <is_current>1</is_current>
+            <is_hidden>0</is_hidden>
+            <is_hidden2>0</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>telephone</keyed_name>
+            <label xml:lang="en">Telephone</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>7</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>32</stored_length>
+            <track_history>0</track_history>
+            <name>telephone</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="B957E0E1F4CD472CB52D38DD420BE0B2">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="user_no" type="Property">B957E0E1F4CD472CB52D38DD420BE0B2</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2003-04-28T10:59:00</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="user_no" type="Property">B957E0E1F4CD472CB52D38DD420BE0B2</id>
+            <is_current>1</is_current>
+            <is_hidden>0</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>user_no</keyed_name>
+            <label xml:lang="en">Employee #</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>4</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>15</stored_length>
+            <track_history>0</track_history>
+            <name>user_no</name>
+          </Item>
+          <Item type="Property" typeId="26D7CD4E033242148E2724D3D054B4D3" id="A67913173B414EAA8E711A3AB33FDB05">
+            <behavior>float</behavior>
+            <column_alignment>left</column_alignment>
+            <column_width>120</column_width>
+            <config_id keyed_name="working_directory" type="Property">A67913173B414EAA8E711A3AB33FDB05</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-08-10T13:04:29</created_on>
+            <data_type>string</data_type>
+            <generation>1</generation>
+            <id keyed_name="working_directory" type="Property">A67913173B414EAA8E711A3AB33FDB05</id>
+            <is_current>1</is_current>
+            <is_hidden>1</is_hidden>
+            <is_hidden2>1</is_hidden2>
+            <is_indexed>0</is_indexed>
+            <is_keyed>0</is_keyed>
+            <is_multi_valued>0</is_multi_valued>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>working_directory</keyed_name>
+            <label xml:lang="en">Working Directory</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Property" type="Permission">10BE484BBAD742789A40D4190E1B32C4</permission_id>
+            <range_inclusive>0</range_inclusive>
+            <readonly>0</readonly>
+            <sort_order>11</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <stored_length>256</stored_length>
+            <track_history>0</track_history>
+            <name>working_directory</name>
+          </Item>
+          <Item type="RelationshipType" typeId="471932C33B604C3099070F4106EE5024" id="C9D16426CE034B28800C661FE90FB345">
+            <auto_search>1</auto_search>
+            <behavior>float</behavior>
+            <config_id keyed_name="Alias" type="RelationshipType">C9D16426CE034B28800C661FE90FB345</config_id>
+            <copy_permissions>0</copy_permissions>
+            <core>1</core>
+            <create_related>0</create_related>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:42:43</created_on>
+            <description>Binds the User to an Identity</description>
+            <generation>1</generation>
+            <hide_in_all>0</hide_in_all>
+            <id keyed_name="Alias" type="RelationshipType">C9D16426CE034B28800C661FE90FB345</id>
+            <inc_rel_key_name>1</inc_rel_key_name>
+            <inc_related_key_name>1</inc_related_key_name>
+            <is_current>1</is_current>
+            <is_list_type>0</is_list_type>
+            <is_released>0</is_released>
+            <keyed_name>Alias</keyed_name>
+            <label xml:lang="en">Aliases</label>
+            <major_rev>A</major_rev>
+            <min_occurs>1</min_occurs>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:37</modified_on>
+            <new_show_related>0</new_show_related>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="RelationshipType" type="Permission">5E288B5D095747598621C86230BCC16A</permission_id>
+            <related_id keyed_name="Identity" type="ItemType" name="Identity">
+              <Item type="ItemType" typeId="450906E86E304F55A34B3C0D65C097EA" id="E582AB17663F4EF28460015B2BE9E094">
+                <allow_private_permission>1</allow_private_permission>
+                <auto_search>0</auto_search>
+                <class_structure><![CDATA[<class id="E582AB17663F4EF28460015B2BE9E094">
+  <class id="6109991B724B4214865317F18FE189F1" name="Team" />
+  <class id="6134A59154C74319B8F8B00729C9DD1E" name="System" />
+</class>]]></class_structure>
+                <close_icon>../images/Identity.svg</close_icon>
+                <config_id keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</config_id>
+                <core>1</core>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2002-04-24T09:42:20</created_on>
+                <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+                <default_page_size>25</default_page_size>
+                <enforce_discovery>0</enforce_discovery>
+                <generation>1</generation>
+                <help_url xml:lang="en">mergedProjects/Just Ask Innovator/About_Identities.htm</help_url>
+                <hide_where_used>0</hide_where_used>
+                <id keyed_name="Identity" type="ItemType">E582AB17663F4EF28460015B2BE9E094</id>
+                <implementation_type>table</implementation_type>
+                <instance_data>IDENTITY</instance_data>
+                <is_current>1</is_current>
+                <is_dependent>0</is_dependent>
+                <is_relationship>0</is_relationship>
+                <is_released>0</is_released>
+                <is_versionable>0</is_versionable>
+                <keyed_name>Identity</keyed_name>
+                <label xml:lang="en">Identity</label>
+                <label_plural xml:lang="en">Identities</label_plural>
+                <large_icon>../images/Identity.svg</large_icon>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:44:27</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <open_icon>../images/Identity.svg</open_icon>
+                <permission_id keyed_name="FEC86F601F7B40D1A3610ACE84CC4321" type="Permission">FEC86F601F7B40D1A3610ACE84CC4321</permission_id>
+                <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+                <show_parameters_tab>1</show_parameters_tab>
+                <state>Released</state>
+                <structure_view>tabs on</structure_view>
+                <unlock_on_logout>0</unlock_on_logout>
+                <use_src_access>0</use_src_access>
+                <name>Identity</name>
+              </Item>
+            </related_id>
+            <related_notnull>1</related_notnull>
+            <related_option>2</related_option>
+            <relationship_id keyed_name="Alias" type="ItemType" name="Alias">4E355E04444B4676AE723B43DECA37DC</relationship_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <state></state>
+            <name>Alias</name>
+          </Item>
+          <Item type="RelationshipType" typeId="471932C33B604C3099070F4106EE5024" id="9C077803B3AA46B4B506C8087CD7E134">
+            <auto_search>1</auto_search>
+            <behavior>float</behavior>
+            <config_id keyed_name="Old Password" type="RelationshipType">9C077803B3AA46B4B506C8087CD7E134</config_id>
+            <copy_permissions>0</copy_permissions>
+            <core>0</core>
+            <create_related>0</create_related>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2018-01-08T02:44:42</created_on>
+            <generation>1</generation>
+            <hide_in_all>0</hide_in_all>
+            <id keyed_name="Old Password" type="RelationshipType">9C077803B3AA46B4B506C8087CD7E134</id>
+            <inc_rel_key_name>1</inc_rel_key_name>
+            <inc_related_key_name>1</inc_related_key_name>
+            <is_current>1</is_current>
+            <is_list_type>0</is_list_type>
+            <is_released>0</is_released>
+            <keyed_name>Old Password</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:42</modified_on>
+            <new_show_related>0</new_show_related>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="RelationshipType" type="Permission">5E288B5D095747598621C86230BCC16A</permission_id>
+            <related_notnull>0</related_notnull>
+            <related_option>2</related_option>
+            <relationship_id keyed_name="Old Password" type="ItemType" name="Old Password">E4F3367A4A6C4956875CAEF580692564</relationship_id>
+            <sort_order>256</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <name>Old Password</name>
+          </Item>
+          <Item type="RelationshipType" typeId="471932C33B604C3099070F4106EE5024" id="91A2E44144344CEA8A2CBCA06C1CE4C5">
+            <auto_search>1</auto_search>
+            <behavior>float</behavior>
+            <config_id keyed_name="ReadPriority" type="RelationshipType">91A2E44144344CEA8A2CBCA06C1CE4C5</config_id>
+            <copy_permissions>0</copy_permissions>
+            <core>0</core>
+            <create_related>0</create_related>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2018-01-08T02:45:11</created_on>
+            <description>Defines the priorities of vaults for file reading</description>
+            <generation>1</generation>
+            <hide_in_all>0</hide_in_all>
+            <id keyed_name="ReadPriority" type="RelationshipType">91A2E44144344CEA8A2CBCA06C1CE4C5</id>
+            <inc_rel_key_name>1</inc_rel_key_name>
+            <inc_related_key_name>1</inc_related_key_name>
+            <is_current>1</is_current>
+            <is_list_type>0</is_list_type>
+            <is_released>0</is_released>
+            <keyed_name>ReadPriority</keyed_name>
+            <label xml:lang="en">Read Vaults</label>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:45:11</modified_on>
+            <new_show_related>0</new_show_related>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="RelationshipType" type="Permission">5E288B5D095747598621C86230BCC16A</permission_id>
+            <related_id keyed_name="Vault" type="ItemType" name="Vault">
+              <Item type="ItemType" typeId="450906E86E304F55A34B3C0D65C097EA" id="8FC29FEF933641A09CEE13A604A9DC74">
+                <allow_private_permission>1</allow_private_permission>
+                <auto_search>0</auto_search>
+                <close_icon>../images/Vault.svg</close_icon>
+                <config_id keyed_name="Vault" type="ItemType" name="Vault">8FC29FEF933641A09CEE13A604A9DC74</config_id>
+                <core>1</core>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2002-08-19T12:01:38</created_on>
+                <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+                <default_page_size>25</default_page_size>
+                <enforce_discovery>0</enforce_discovery>
+                <generation>1</generation>
+                <help_url xml:lang="en">mergedProjects/Just Ask Innovator/About_Vaults.htm</help_url>
+                <hide_where_used>0</hide_where_used>
+                <id keyed_name="Vault" type="ItemType">8FC29FEF933641A09CEE13A604A9DC74</id>
+                <implementation_type>table</implementation_type>
+                <instance_data>VAULT</instance_data>
+                <is_current>1</is_current>
+                <is_dependent>0</is_dependent>
+                <is_relationship>0</is_relationship>
+                <is_released>0</is_released>
+                <is_versionable>0</is_versionable>
+                <keyed_name>Vault</keyed_name>
+                <label xml:lang="en">Vault</label>
+                <label_plural xml:lang="en">Vaults</label_plural>
+                <large_icon>../images/Vault.svg</large_icon>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:44:32</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <open_icon>../images/Vault.svg</open_icon>
+                <permission_id keyed_name="125634D4813641B39D5CF61BF6C4131A" type="Permission">125634D4813641B39D5CF61BF6C4131A</permission_id>
+                <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+                <show_parameters_tab>1</show_parameters_tab>
+                <state>Released</state>
+                <structure_view>tabs on</structure_view>
+                <unlock_on_logout>0</unlock_on_logout>
+                <use_src_access>0</use_src_access>
+                <name>Vault</name>
+              </Item>
+            </related_id>
+            <related_notnull>1</related_notnull>
+            <related_option>0</related_option>
+            <relationship_id keyed_name="ReadPriority" type="ItemType" name="ReadPriority">8CFAF78BCFFB41E6A3ED838D9EC2FD7C</relationship_id>
+            <sort_order>384</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <name>ReadPriority</name>
+          </Item>
+          <Item type="Server Event" typeId="8214ECDE53F04AFC95243E10B2C7BBD4" id="84A181D52EC54FE58FFA18A8EA4776C3">
+            <behavior>float</behavior>
+            <config_id keyed_name="84A181D52EC54FE58FFA18A8EA4776C3" type="Server Event">84A181D52EC54FE58FFA18A8EA4776C3</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:43:15</created_on>
+            <event_version>version_1</event_version>
+            <generation>1</generation>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>84A181D52EC54FE58FFA18A8EA4776C3</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Server Event" type="Permission">0AE78B9E03034541A9310742A58CEAF3</permission_id>
+            <related_id keyed_name="Add Alias Identity" type="Method">
+              <Item type="Method" typeId="87879A09B8044DE380D59DF22DE1867F" id="9063F6FCC2C54629A6AD4FDC8DA8BFD3">
+                <config_id keyed_name="Add Alias Identity" type="Method">61346634B3DC4D51964CD7AD988051D7</config_id>
+                <core>1</core>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2002-04-24T09:43:14</created_on>
+                <current_state name="Released" keyed_name="Released" type="Life Cycle State">F08211E432904F5DA4D191EF5ED6F3DF</current_state>
+                <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+                <generation>2</generation>
+                <id keyed_name="Add Alias Identity" type="Method">9063F6FCC2C54629A6AD4FDC8DA8BFD3</id>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <keyed_name>Add Alias Identity</keyed_name>
+                <major_rev>A</major_rev>
+                <method_code><![CDATA[AddAliasIdentity]]></method_code>
+                <method_type>Internal</method_type>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:44:13</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="E096F2F4CBB44ADDB8193CAB39D51866" type="Permission">E096F2F4CBB44ADDB8193CAB39D51866</permission_id>
+                <state>Released</state>
+                <name>Add Alias Identity</name>
+              </Item>
+            </related_id>
+            <server_event>onBeforeAdd</server_event>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <id keyed_name="84A181D52EC54FE58FFA18A8EA4776C3" type="Server Event">84A181D52EC54FE58FFA18A8EA4776C3</id>
+          </Item>
+          <Item type="Server Event" typeId="8214ECDE53F04AFC95243E10B2C7BBD4" id="FA01F9C52FA2405885AE428CF2B54A7D">
+            <behavior>float</behavior>
+            <config_id keyed_name="FA01F9C52FA2405885AE428CF2B54A7D" type="Server Event">FA01F9C52FA2405885AE428CF2B54A7D</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-08-04T17:24:07</created_on>
+            <event_version>version_1</event_version>
+            <generation>1</generation>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>FA01F9C52FA2405885AE428CF2B54A7D</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Server Event" type="Permission">0AE78B9E03034541A9310742A58CEAF3</permission_id>
+            <related_id keyed_name="Confirm User Password" type="Method">
+              <Item type="Method" typeId="87879A09B8044DE380D59DF22DE1867F" id="1993E8140259493F842D85DD4D6B80AE">
+                <config_id keyed_name="Confirm User Password" type="Method">8983DFE74A1D46F6996413C072DC1802</config_id>
+                <core>1</core>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2004-08-04T17:24:06</created_on>
+                <current_state name="Released" keyed_name="Released" type="Life Cycle State">F08211E432904F5DA4D191EF5ED6F3DF</current_state>
+                <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+                <generation>2</generation>
+                <id keyed_name="Confirm User Password" type="Method">1993E8140259493F842D85DD4D6B80AE</id>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <keyed_name>Confirm User Password</keyed_name>
+                <major_rev>A</major_rev>
+                <method_code><![CDATA[ConfirmUserPassword]]></method_code>
+                <method_type>Internal</method_type>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:44:13</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Method" type="Permission">696C2AAAD70F47C79C7B232372FBB919</permission_id>
+                <state>Released</state>
+                <name>Confirm User Password</name>
+              </Item>
+            </related_id>
+            <server_event>onBeforeAdd</server_event>
+            <sort_order>256</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <id keyed_name="FA01F9C52FA2405885AE428CF2B54A7D" type="Server Event">FA01F9C52FA2405885AE428CF2B54A7D</id>
+          </Item>
+          <Item type="Server Event" typeId="8214ECDE53F04AFC95243E10B2C7BBD4" id="9BF03AEE4CD94C05817F41295F1ABE3B">
+            <behavior>float</behavior>
+            <config_id keyed_name="9BF03AEE4CD94C05817F41295F1ABE3B" type="Server Event">9BF03AEE4CD94C05817F41295F1ABE3B</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2018-01-08T02:45:59</created_on>
+            <event_version>version_1</event_version>
+            <generation>1</generation>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <is_required>1</is_required>
+            <keyed_name>9BF03AEE4CD94C05817F41295F1ABE3B</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:45:59</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="DCA0BC0221FA48399DB079F3B88A3909" type="Permission">DCA0BC0221FA48399DB079F3B88A3909</permission_id>
+            <related_id keyed_name="VC_ReassignUserForums" type="Method">
+              <Item type="Method" typeId="87879A09B8044DE380D59DF22DE1867F" id="10A52F66E669491BBC6E1758A3A1C2FB">
+                <config_id keyed_name="VC_ReassignUserForums" type="Method">10A52F66E669491BBC6E1758A3A1C2FB</config_id>
+                <core>0</core>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2018-01-08T02:45:45</created_on>
+                <current_state name="Released" keyed_name="Released" type="Life Cycle State">F08211E432904F5DA4D191EF5ED6F3DF</current_state>
+                <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+                <generation>1</generation>
+                <id keyed_name="VC_ReassignUserForums" type="Method">10A52F66E669491BBC6E1758A3A1C2FB</id>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <keyed_name>VC_ReassignUserForums</keyed_name>
+                <major_rev>A</major_rev>
+                <method_code><![CDATA[/*
+executed onBeforeDelete user
+cleanUp owner of AllForums, created by User
+cleanUp Forum "MyBookmark" of user
+should be cleaned up properties "want_view_by", "must_view_by" and "shared_with"
+*/
+string userId = this.getID();
+string oldAction = this.getAction();
+this.context = CCO;
+this.setAction("get");
+Item users = this.apply();
+for (int i = 0, count = users.getItemCount(); i < count; i++)
+{
+	Item currentUser = users.getItemByIndex(i);
+	ProcessUser(currentUser.getID());
+}
+this.setAction(oldAction);
+return this;
+}
+Aras.Server.Core.CallContext context;
+
+private void ProcessUser(string userId)
+{
+	string aliasId = GetAliasIdentityIdForUser(userId);
+	RemoveMyBookmarkForumForUser(aliasId);
+	RemoveNotSharedRegularForums(aliasId);
+	CleanUpOwnerPropertyOfForums(aliasId);
+	CleanupIdentityProperty("ForumWantViewBy", "want_view_id", aliasId);
+	CleanupIdentityProperty("ForumSharedWith", "shared_with_id", aliasId);
+	CleanupIdentityProperty("ForumMustViewBy", "must_view_id", aliasId);
+}
+
+private void CleanupIdentityProperty(string relshipName, string propertyName, string identityId)
+{
+	string table = context.DB.InnDatabase.GetTableName(relshipName);
+	Item relship = this.newItem(relshipName, "delete");
+	relship.setAttribute("where", String.Format(CultureInfo.InvariantCulture, "{0}.{1}='{2}'", table, propertyName, context.DB.InnDatabase.QuoteValue(identityId)));
+	relship.apply();
+}
+
+private Item EditForumItem(string forumId, string propertyName, string propertyValue)
+{
+	Item forum = this.newItem("Forum", "edit");
+	forum.setID(forumId);
+	forum.setProperty(propertyName, propertyValue);
+	return forum.apply();
+}
+
+private void RemoveNotSharedRegularForums(string aliasId)
+{
+	Item forums = this.newItem("Forum", "delete");
+	forums.setAttribute("where", String.Format(CultureInfo.InvariantCulture, "[FORUM].owned_by_id='{0}' and ([FORUM].id not in (SELECT source_id from innovator.[FORUMSHAREDWITH]))", context.DB.InnDatabase.QuoteValue(aliasId)));
+	forums.apply();
+}
+
+private void CleanUpOwnerPropertyOfForums(string aliasId)
+{
+	Item forums = this.newItem("Forum", "get");
+	forums.setProperty("forum_type", "Regular");
+	forums.setProperty("owned_by_id", aliasId);
+	forums = forums.apply();
+	if (forums.isError())
+	{
+		return;
+	}
+	List<string> ids = new List<string>();
+	for (int i = 0, count = forums.getItemCount(); i < count; i++)
+	{
+		Item current = forums.getItemByIndex(i);
+		ids.Add(String.Format(CultureInfo.InvariantCulture, "{0}", current.getID()));
+	}
+	Item editForums = this.newItem("Forum", "edit");
+	editForums.setAttribute("idlist", String.Join(", ", ids.ToArray()));
+	editForums.setPropertyAttribute("owned_by_id", "is_null", "1");
+	editForums.apply();
+}
+
+private void RemoveMyBookmarkForumForUser(string aliasId)
+{
+	Item forum = this.newItem("Forum", "delete");
+	string escapedAliasId = context.DB.InnDatabase.QuoteValue(aliasId);
+	forum.setAttribute("where", String.Format(CultureInfo.InvariantCulture, "[FORUM].forum_type='MyBookmarks' and [FORUM].owned_by_id = '{0}'", escapedAliasId));
+	forum = forum.apply();
+}
+
+private string GetAliasIdentityIdForUser(string userId)
+{
+	Item identity = this.newItem("User", "VC_GetUserIsAliasIdentity");
+	identity.setID(userId);
+	identity = identity.apply();
+	return identity.getID();]]></method_code>
+                <method_type>C#</method_type>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:45:45</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Method" type="Permission">696C2AAAD70F47C79C7B232372FBB919</permission_id>
+                <state>Released</state>
+                <name>VC_ReassignUserForums</name>
+              </Item>
+            </related_id>
+            <server_event>onBeforeDelete</server_event>
+            <sort_order>112</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <id keyed_name="9BF03AEE4CD94C05817F41295F1ABE3B" type="Server Event">9BF03AEE4CD94C05817F41295F1ABE3B</id>
+          </Item>
+          <Item type="Server Event" typeId="8214ECDE53F04AFC95243E10B2C7BBD4" id="F2DAD217796E426BB20EEB1A292D41A6">
+            <behavior>float</behavior>
+            <config_id keyed_name="F2DAD217796E426BB20EEB1A292D41A6" type="Server Event">F2DAD217796E426BB20EEB1A292D41A6</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2006-08-03T14:20:08</created_on>
+            <event_version>version_1</event_version>
+            <generation>1</generation>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>F2DAD217796E426BB20EEB1A292D41A6</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="ItemType" type="Permission">102D29B8CD9948BFB5F558341DF4C0F9</permission_id>
+            <related_id keyed_name="BeforeDeleteUser" type="Method">
+              <Item type="Method" typeId="87879A09B8044DE380D59DF22DE1867F" id="DFC5D24A83FD473880165B2D10CAA71F">
+                <config_id keyed_name="BeforeDeleteUser" type="Method">CD05AE2188B84C90BEE598F5CD60BF5F</config_id>
+                <core>0</core>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2006-08-03T14:20:08</created_on>
+                <current_state name="Released" keyed_name="Released" type="Life Cycle State">F08211E432904F5DA4D191EF5ED6F3DF</current_state>
+                <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+                <generation>2</generation>
+                <id keyed_name="BeforeDeleteUser" type="Method">DFC5D24A83FD473880165B2D10CAA71F</id>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <keyed_name>BeforeDeleteUser</keyed_name>
+                <major_rev>A</major_rev>
+                <method_code><![CDATA[BeforeDeleteUser]]></method_code>
+                <method_type>Internal</method_type>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:44:13</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Method" type="Permission">696C2AAAD70F47C79C7B232372FBB919</permission_id>
+                <state>Released</state>
+                <name>BeforeDeleteUser</name>
+              </Item>
+            </related_id>
+            <server_event>onBeforeDelete</server_event>
+            <sort_order>896</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <id keyed_name="F2DAD217796E426BB20EEB1A292D41A6" type="Server Event">F2DAD217796E426BB20EEB1A292D41A6</id>
+          </Item>
+          <Item type="Server Event" typeId="8214ECDE53F04AFC95243E10B2C7BBD4" id="013BC777B188483AAB57A7E42ABD6367">
+            <behavior>float</behavior>
+            <config_id keyed_name="013BC777B188483AAB57A7E42ABD6367" type="Server Event">013BC777B188483AAB57A7E42ABD6367</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2004-08-04T17:24:07</created_on>
+            <event_version>version_1</event_version>
+            <generation>1</generation>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>013BC777B188483AAB57A7E42ABD6367</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Server Event" type="Permission">0AE78B9E03034541A9310742A58CEAF3</permission_id>
+            <related_id keyed_name="Confirm User Password" type="Method">
+              <Item type="Method" typeId="87879A09B8044DE380D59DF22DE1867F" id="1993E8140259493F842D85DD4D6B80AE">
+                <config_id keyed_name="Confirm User Password" type="Method">8983DFE74A1D46F6996413C072DC1802</config_id>
+                <core>1</core>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2004-08-04T17:24:06</created_on>
+                <current_state name="Released" keyed_name="Released" type="Life Cycle State">F08211E432904F5DA4D191EF5ED6F3DF</current_state>
+                <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+                <generation>2</generation>
+                <id keyed_name="Confirm User Password" type="Method">1993E8140259493F842D85DD4D6B80AE</id>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <keyed_name>Confirm User Password</keyed_name>
+                <major_rev>A</major_rev>
+                <method_code><![CDATA[ConfirmUserPassword]]></method_code>
+                <method_type>Internal</method_type>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:44:13</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Method" type="Permission">696C2AAAD70F47C79C7B232372FBB919</permission_id>
+                <state>Released</state>
+                <name>Confirm User Password</name>
+              </Item>
+            </related_id>
+            <server_event>onBeforeUpdate</server_event>
+            <sort_order>384</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <id keyed_name="013BC777B188483AAB57A7E42ABD6367" type="Server Event">013BC777B188483AAB57A7E42ABD6367</id>
+          </Item>
+          <Item type="Server Event" typeId="8214ECDE53F04AFC95243E10B2C7BBD4" id="6248C9804D3C4C5C9F451E66B5FD7362">
+            <behavior>float</behavior>
+            <config_id keyed_name="6248C9804D3C4C5C9F451E66B5FD7362" type="Server Event">6248C9804D3C4C5C9F451E66B5FD7362</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2018-01-08T02:44:31</created_on>
+            <event_version>version_1</event_version>
+            <generation>1</generation>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <is_required>0</is_required>
+            <keyed_name>6248C9804D3C4C5C9F451E66B5FD7362</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="DCA0BC0221FA48399DB079F3B88A3909" type="Permission">DCA0BC0221FA48399DB079F3B88A3909</permission_id>
+            <related_id keyed_name="Core_SetPwdDateAndHistory" type="Method">
+              <Item type="Method" typeId="87879A09B8044DE380D59DF22DE1867F" id="9651CB4F2E4D48599D618D4CC21EF6ED">
+                <config_id keyed_name="Core_SetPwdDateAndHistory" type="Method">9651CB4F2E4D48599D618D4CC21EF6ED</config_id>
+                <core>0</core>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2018-01-08T02:44:13</created_on>
+                <current_state name="Released" keyed_name="Released" type="Life Cycle State">F08211E432904F5DA4D191EF5ED6F3DF</current_state>
+                <execution_allowed_to keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+                <generation>1</generation>
+                <id keyed_name="Core_SetPwdDateAndHistory" type="Method">9651CB4F2E4D48599D618D4CC21EF6ED</id>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <keyed_name>Core_SetPwdDateAndHistory</keyed_name>
+                <major_rev>A</major_rev>
+                <method_code><![CDATA[Dim tmpInn As Innovator = Me.getInnovator()
+Dim userId As String = Me.getAttribute("id")
+Dim conn As Aras.Server.Core.InnovatorDatabase = CCO.Variables.InnDatabase
+Dim token As String = CCO.TokenProtectedFunctions.FunctionProtectionToken
+Dim rs As Aras.Server.Core.InnovatorDataSet
+Dim sql As String
+Dim inD As New XmlDocument()
+Dim outD As New XmlDocument()
+
+Dim i As Integer
+Dim idenIds As String = Aras.Server.Security.Permissions.GetIdentitiesList(conn, userId)
+Dim newPwd As String = Me.getProperty("password")
+If IsNothing(newPwd) Then Return tmpInn.newResult("nothing changed")
+
+Dim itm As Item = Me.newItem("RelationshipType", "get")
+itm.setProperty("name", "Old Password")
+itm = itm.apply()
+If itm.isError() Then Return itm
+
+sql = String.Format("SELECT password FROM [tokenprotected].[USER]('{1}') WHERE ID='{0}'", conn.QuoteValue(userId), conn.QuoteValue(token))
+rs = conn.ExecuteSelectCommand(sql)
+
+Dim oldPwd As String = CStr(rs.Value(0, ""))
+
+sql = String.Format("SELECT MAX(pwd_history_length) FROM [IDENTITY] WHERE ID IN ({0})", idenIds)
+rs = conn.ExecuteSelectCommand(sql)
+Dim pwd_history_length As Integer = 0
+If Not rs.Eof Then pwd_history_length = CInt(rs.Value(0, 0))
+
+If pwd_history_length < 0 Then pwd_history_length = 0
+Dim whereClause2Delete As String = ""
+If pwd_history_length > 0 Then
+	sql = String.Format("SELECT id FROM [Old_Password] WHERE source_id='{0}' ORDER BY created_on", conn.QuoteValue(userId))
+	rs = conn.ExecuteSelectCommand(sql)
+	Dim ids2Delete() As String
+	Dim ids2DeleteNum As Integer = rs.RowsNumber - pwd_history_length + 1
+	If ids2DeleteNum > 0 Then
+		Redim ids2Delete(ids2DeleteNum - 1)
+		i = 0
+		While Not rs.Eof
+			If i < ids2DeleteNum Then
+				ids2Delete(i) = conn.QuoteValue(CStr(rs.Value("id")))
+			End If
+			i += 1
+			rs.MoveNext()
+		End While
+		If i > 0 Then whereClause2Delete = "[Old_Password].id IN ('" + Join(ids2Delete, "','") + "')"
+	End If
+Else
+	whereClause2Delete = String.Format("[Old_Password].source_id='{0}'", conn.QuoteValue(userId))
+End If
+
+If Not String.IsNullOrEmpty(whereClause2Delete) Then
+	itm = Me.newItem("Old Password", "delete")
+	itm.setAttribute("where", whereClause2Delete)
+	itm = itm.apply()
+	If itm.isError() Then Return itm
+End If
+
+sql = ""
+If pwd_history_length > 0 Then
+	sql = String.Format("SELECT id FROM [tokenprotected].[OLD_PASSWORD]('{2}') WHERE source_id='{0}' AND old_pwd='{1}' " + _
+	  "  UNION ALL " + _
+	  "SELECT id FROM [tokenprotected].[USER]('{2}') WHERE id='{0}' AND password='{1}'", conn.QuoteValue(userId), conn.QuoteValue(newPwd), conn.QuoteValue(token))
+
+	rs = conn.ExecuteSelectCommand(sql)
+
+	Dim doesTheSamePwdExist As Boolean = Not rs.Eof
+
+	Dim s As String = ""
+	If pwd_history_length > 1 Then s = "s"
+	If doesTheSamePwdExist Then Return tmpInn.newError(String.Format("You cannot repeat any of your previous {0} password{1}. Please, try a different password.", pwd_history_length, s))
+	'+++++ add the password history record
+	Dim newId As String = tmpInn.getNewID()
+	itm = Me.newItem("Old Password", "add")
+	itm.setID(newId)
+	itm.setProperty("source_id", userId)
+	itm = itm.apply()
+	If itm.isError() Then Return itm
+
+	sql = String.Format("UPDATE [Old_Password] SET old_pwd='{0}' WHERE id='{1}'", conn.QuoteValue(oldPwd), conn.QuoteValue(newId))
+	sql += vbNewLine
+	'----- add the password history record
+End If
+
+sql += String.Format("UPDATE [User] SET pwd_is_set_on=getutcdate() WHERE id='{0}'", conn.QuoteValue(userId))
+conn.ExecuteSQL(sql)]]></method_code>
+                <method_type>VB</method_type>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:44:13</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Method" type="Permission">696C2AAAD70F47C79C7B232372FBB919</permission_id>
+                <state>Released</state>
+                <name>Core_SetPwdDateAndHistory</name>
+              </Item>
+            </related_id>
+            <server_event>onBeforeUpdate</server_event>
+            <sort_order>1152</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <id keyed_name="6248C9804D3C4C5C9F451E66B5FD7362" type="Server Event">6248C9804D3C4C5C9F451E66B5FD7362</id>
+          </Item>
+          <Item type="TOC Access" typeId="38C9CE2A4E06401DABF942E1D0224E87" id="2A24A48D26EB490FB8E1F5F5B7B376F2">
+            <behavior>float</behavior>
+            <config_id keyed_name="Administration" type="TOC Access">2A24A48D26EB490FB8E1F5F5B7B376F2</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-09-06T11:13:39</created_on>
+            <current_state name="Released" keyed_name="Released" type="Life Cycle State">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+            <generation>1</generation>
+            <id keyed_name="Administration" type="TOC Access">2A24A48D26EB490FB8E1F5F5B7B376F2</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>Administration</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="TOC Access" type="Permission">E7EEEA898ECC43D69F9B36BB446D1BB5</permission_id>
+            <related_id keyed_name="Administrators" type="Identity">
+              <Item type="Identity" typeId="E582AB17663F4EF28460015B2BE9E094" id="2618D6F5A90949BAA7E920D1B04C7EE1">
+                <config_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</config_id>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2005-07-15T11:33:48</created_on>
+                <description>Users with access to system administrative aspects</description>
+                <generation>1</generation>
+                <id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</id>
+                <is_alias>0</is_alias>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <keyed_name>Administrators</keyed_name>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Wayne Rumsey" type="User">7DCBB249A99340B7B897A44A2027584B</modified_by_id>
+                <modified_on>2018-04-12T15:37:58</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Identity" type="Permission">761D6A3E3CA146138B47393D29FF6824</permission_id>
+                <name>Administrators</name>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <state>Released</state>
+            <category>Administration</category>
+          </Item>
+          <Item type="View" typeId="8EFCE40BCB74478B8254CEB594CE8774" id="59F48DFD1CB642EBBBFE238B43E94E46">
+            <client>js</client>
+            <config_id keyed_name="default" type="View">59F48DFD1CB642EBBBFE238B43E94E46</config_id>
+            <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+            <created_on>2002-04-24T09:48:36</created_on>
+            <generation>1</generation>
+            <id keyed_name="default" type="View">59F48DFD1CB642EBBBFE238B43E94E46</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>default</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+            <modified_on>2018-01-08T02:44:31</modified_on>
+            <new_version>0</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="View" type="Permission">BA9817BC7CBD47218D6D8677AE49519C</permission_id>
+            <related_id keyed_name="User" type="Form">
+              <Item type="Form" typeId="47573682FB7549F59ADECD4BFE04F1DE" id="F163110C6FD54096A2D59097596ED890">
+                <category_form>0</category_form>
+                <config_id keyed_name="User" type="Form">F163110C6FD54096A2D59097596ED890</config_id>
+                <core>1</core>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2002-04-24T09:48:28</created_on>
+                <description>Users are accounts for people to login to Innovator</description>
+                <generation>1</generation>
+                <height>309</height>
+                <id keyed_name="User" type="Form">F163110C6FD54096A2D59097596ED890</id>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <keyed_name>User</keyed_name>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2018-01-08T02:44:20</modified_on>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="1A95057F1FC446DB83B8BF956E274DD9" type="Permission">1A95057F1FC446DB83B8BF956E274DD9</permission_id>
+                <stylesheet>../styles/default.css</stylesheet>
+                <width>764</width>
+                <name>User</name>
+              </Item>
+            </related_id>
+            <role keyed_name="World" type="Identity">A73B655731924CD0B027E4F4D5FCC0A9</role>
+            <show_ssvc>0</show_ssvc>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</source_id>
+            <type>default</type>
+          </Item>
+        </Relationships>
+      </Item>
+    </Result>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Innovator.Xsl
+namespace Innovator.ReportEngine
 {
-  class Program
+  public enum StylesheetType
   {
-    static void Main(string[] args)
-    {
-    }
+    Xslt,
+    Razor
   }
 }
